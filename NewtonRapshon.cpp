@@ -84,7 +84,7 @@ double newtonRapshon(double x0){
     if(fabs(fx0) < 0.00001)
         return x0;
     if(fdashx0 == 0)
-        newtonRapshon(x0 + 0.00001);
+        return newtonRapshon(x0 + 0.00001);
     double x1 = x0 - (fx0 / fdashx0);
     return newtonRapshon(x1);
 }
