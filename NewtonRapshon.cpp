@@ -7,6 +7,12 @@ using namespace std;
 double coeff[MAX], expo[MAX], coeff_dash[MAX], expo_dash[MAX];
 int size = 0, size_dash = 0;
 
+/*The Newton-Raphson method (also known as Newton's method) is a way
+to quickly find a good approximation for the root of a real-valued 
+function f ( x ) = 0 f(x) = 0 f(x)=0. It uses the idea that a continuous 
+and differentiable function can be approximated by a straight line tangent 
+to it.*/
+
 double f(double);
 double f_dash(double);
 double newtonRapshon(double);
