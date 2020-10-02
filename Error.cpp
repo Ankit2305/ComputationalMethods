@@ -4,6 +4,7 @@
 using namespace std;
 
 int main(){
+
     float accurateValue, approxValue, error;
     cout<<"Enter Accurate Value : ";
     cin>>accurateValue;
@@ -17,6 +18,7 @@ int main(){
     error *= 100;
     cout<<fixed<<setprecision(2);
     cout<<"Percentage error \t: "<<error<<" %"<<endl;
+    cout<"error";
     return 0;
 }
 
